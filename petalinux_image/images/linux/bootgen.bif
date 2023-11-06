@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	[bootloader] /home/platform/xil_prj/zedtest/images/linux/zynq_fsbl.elf
+	/home/platform/xil_prj/zedtest/images/linux/system.bit
+	/home/platform/xil_prj/zedtest/images/linux/u-boot.elf
+	[load=0x00100000] /home/platform/xil_prj/zedtest/images/linux/system.dtb
+}
